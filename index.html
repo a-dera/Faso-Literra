@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+	<head>
+		<title>Portail de la littérature burkinabè || Faso-Littéra</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="author" content="Amédée DERA"/>
+        <meta name="keywords" content=" littérature burkinabé, littérature au faso, littérature au burkina ">
+        <meta name="description" content=" Faso-Littéra est un portail de la littérature burkinabé">
+		<meta name="category" content="Littérature">
+		<meta name="geo.placename" content="Ouagadougou">
+		<meta http-equiv="refresh" content="75"><!-- Rafrichir automatiquement la page un certain bout de temps afin d'amener l'user de rester captiver et actif-->
+		<meta name="robots" content="noarchive"><!-- Ne laisser aucune archive de lan page sur les moteurs de recherches-->
+		<meta name="google" content="translate"><!--Permettre la traduction de la page web par Google dans d'autres langues -->
+		<meta name="google" content="noimageindex"><!-- Les images nous appartiennent pas, donc on empêche Google de les faire sortir à partir de
+		                                                notre page en cas de recherche d'images sur Google-->
+		<meta name="google" content="xxxx"><!--Pour cibler Google -->
+		<meta name="msnbot" content="xxxx"><!--Pour cibler MSN -->
+		<meta name="bingbot" content="xxxx"><!--Pour cibler Bing -->
+		<meta name="Slurp" content="xxxx"><!--Pour cibler Yahoo -->
+		<meta name="revised" content="14/03/2019" ><!--Dernière modification de la page -->
+	    <!-- Favicon du site -->
+        <link rel="shortcut Icon" type="image/x-icon" href="Images/favicon.png">
+		<!-- Feuille de Style principale -->
+        <link  href="css/main.css" rel="stylesheet" />
+		<!-- Feuille de style Bootstrap -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<!--Liens des styles pour le preloading de la page-->
+		<link rel="stylesheet" href="css/demo.css">
+        <link rel="stylesheet" href="css/fakeLoader.min.css">
+        <!-- Scripts -->
+	    <script src="js/main.js" ></script><!--principale-->
+		<script src="js/journee.js" ></script><!--affichage de la date du jour-->
+		<script src="js/jquery.min.js"></script><!--jquery, intervient dans le preloading-->
+        <script src="js/fakeLoader.min.js"></script><!--preloader-->
+        <script>
+            $(document).ready(function(){
+                $.fakeLoader({
+                    timeToHide:1200,
+                    bgColor:"#34495e",
+                    spinner:"spinner3"
+                });
+            });
+        </script>
+	</head>
+	<body>
+	    <!-- Début Preloader -->
+		  <div class="fakeLoader"></div>
+		<!--Fin du Preloader -->
+	<!-- Début du menu-->
+	<header> 
+	<nav id="tabs" class="navbar">
+		<ul id="navmenu" class="menu">
+			<li class="home"><a href="#" onclick="popup() ">Acceuil</a></li>
+			<li class="home"><a href="html/history.html" onclick="popup()">Historique</a></li>
+			<li><a href="#">Auteurs</a>
+			<ul class="submenu">
+					<li><a href="html/auteurs/romanciers.html" onclick="popup()">Romancier</a></li>
+					<li><a href="html/auteurs/poètes.html" onclick="popup()">Poètes</a></li>
+					<li><a href="html/auteurs/autres.html" onclick="popup()">Nouvelliste et essayistes</a></li>
+				</ul>
+			</li>
+			<li class="home"><a href="#">Livres</a>
+				<ul class="submenu">
+					<li><a href="html/livres/romans.html" onclick="popup()">Romans</a></li>
+					<li><a href="html/livres/poèmes.html" onclick="popup()">Reccueil de poèmes</a></li>
+					<li><a href="html/livres/nouvelles.html" onclick="popup()">Nouvelles et essais</a></li>
+				</ul>
+			</li>
+			<li  class="home"><a href="#">Maison d'éditions</a>
+				<ul class="submenu">
+					<li><a href="html/maisons/ogdg.html" onclick="popup()">Ouagadougou</a></li>
+					<li><a href="html/maisons/bbds.html" onclick="popup()">Bobo-Dioulasso</a></li>
+				</ul>
+			</li>				
+		</ul>
+	</nav>
+	</header>
+	<!-- Fin du menu-->
+	<!-- Début du corps-->
+	<div class="corps">
+		<p class="mot">Bienvenue sur le site Faso-Littéra, le seul site web qui vous présente de fond en comble toute la littérature burkinabé!</p>
+		<p class="mot">Nous sommes le
+		<!--script pour compteur automatique de date en JS et en Français.-->
+			<script>
+				document.write(showJournee());
+			</script>
+        </p>
+		<div class="acc">
+			La littérature burkinabè écrite d’expression française est depuis ces dernières décennies en plein essor. 
+			Ce progrès significatif est dû d’une part à une volonté des pouvoirs publics de soutenir et de promouvoir la création 
+			la création littéraire, expression de la culture d’un peuple. Des structures telles que le Grand prix national des arts et
+			des lettres(GPNAL), la Foire internationale du livre de Ouagadougou (FILO), le Programme de soutien aux initiatives culturelles
+			décentralisées, (PSIC) la Direction du livre et de la promotion littéraire[1] (au sein du ministère des Arts de la Culture et du 
+			Tourisme) témoignent de cette volonté politique d’œuvrer pour la promotion et le rayonnement de la littérature nationale.
+			Cet essor est dû d’autre part à une grande détermination des écrivains eux-mêmes qui tiennent coûte que coûte à écrire et à
+			produire des œuvres parfois à compte d’auteur.
+			En effet, tandis que Titenga Frédéric Pacéré, Jean Pierre Guingané, et bien d’autres s’affirment au-delà des frontières du
+			Burkina Faso, une nouvelle génération d’auteurs incarnée par Sophie Heidi Kam, William A. N. Combary, etc. est en train d’émerger.
+			Dans cette littérature nationale en pleine émergence, plus que tout autre, un genre narratif comme la nouvelle connaît un 
+			essor extraordinaire surtout par le biais des concours littéraires et des journaux qui lui servent également de support de 
+			publication. C’est cet essor remarquable de la nouvelle qui a motivé le choix de ce genre comme champ d’investigation.
+			En effet, en dehors des nouvelles publiées dans le cadre du G.P.N.AL., les journaux burkinabè, dans leur majorité, consacrent 
+			une place à la nouvelle dans leurs colonnes. Le Centre national des œuvres universitaires (CENOU) organisait chaque année un 
+			concours de nouvelles au sein de l’université de Ouagadougou. Il y a aussi l’apport non négligeable des poètes, des romanciers,
+			comme Jacques Prosper Bazié, Monique Ilboudo, Bernadette Dao, pour ne citer que ceux-là, qui ont chacun à sa corde un ou deux 
+			recueils de nouvelles ; cela en dehors bien sûr de leurs genres de prédilection, des genres qui les ont révélés au grand public.
+			C’est dire donc qu’au Burkina Faso, les hommes et les femmes manifestent de plus en plus un intérêt pour ce genre qu’est la nouvelle.
+			Puis il nous a été donné de constater qu’en dehors des quelques rares analyses de Go Issou, Millogo Louis, Nyamba André ; les 
+			travaux sur la nouvelle étaient rares voire, rarissimes[2]. Les étudiants prétextent l’absence d’ouvrages généraux pour fuir
+			l’étude de la nouvelle dans leur projet de mémoire. Et depuis le mémoire de Méda Y. Bonaventure sur le genre sous la direction 
+			de Bernardin Sanon en 1988, plus aucun étudiant n’a soutenu sur la nouvelle. Il nous a semblé alors opportun d’envisager ce travail 
+			qui permettrait de saisir l’état actuel de la nouvelle burkinabè. Son évolution tant au niveau de son élaboration qu’au niveau de sa 
+			thématique qui sans doute a dû évoluer pour prendre en compte les préoccupations du moment.
+		</div>
+		<!-- La partie gauche du corps de la page-->
+		<div class="content">
+			<aside class="top-sidebar">
+						<h4>Dernières nouvelles</h4>
+						<marquee direction="up" behavior="scroll" scrollamount="2" >
+								<span><a href="#">>>Ouverture dans <span id="demo"></span><br> d'une nouvele maison d'éditions</a></span><br>
+								<span><a href="#">>>Foire du livre prévu cette année au mois d'Octobre</a></span><br>
+								<span><a href="#">>>Plusieurs maisons d'éditions annoncent des tarifs promotionnaires pouur bientôt</a></span><br>
+						</marquee>
+			</aside>				
+
+			<aside class="bottom-sidebar">
+							<h4>Ressoucres téléchargeables</h4>
+						<marquee direction="up" behavior="scroll" scrollamount="2">
+								<span><a href="pdf/crépusc.pdf" target="_blank">>>Présentation de l'oeuvre crépuscules des temps anciens de Nazi BONI</a></span><br>
+								<span><a href="pdf/bend.pdf"  target="_blank">>>Petite ébauche du roman bendrologie de F.T.PACERE</a></span><br>
+								<span><a href="pdf/présent.pdf"  target="_blank">>>Présentation de l'oeuvre de Sanou Salaka <i><u> La littérature burkinabè</u> : l’histoire, les hommes, les œuvres </i> par Alain SISSAO</a></span><br>
+						</marquee>
+			</aside>
+		</div>
+		<!-- début du défilement des livres-->
+		<marquee direction="left" behavior="alternate" scrollamount="5" >		
+		 <div class="def">
+		 <h2 class="pop">Les livres les plus populaires</h2>
+		  <div class="books">
+		   
+			<aside class="sidebar">
+						<span><a href="" onclick="popup()">Ignace A. HIEN</a></span><br>
+						<span><img src="Images/livres/l'enfer_au_paradis.png" alt="l'enfer_au_paradis" title="l'enfer_au_paradis"><br>
+						<a href="" onclick="popup()">L'enfer au paradis</a></span><br>
+			</aside>				
+			<aside class="sidebar">
+						<span><a href="" onclick="popup()">Nazi BONI</a></span><br>
+						<span><img src="Images/livres/crépuscule.png" alt="crépuscule" title="crépuscule"><br>
+						<a href="" onclick="popup()">Le crépuscule des temps anciens: chroniques du Bwamu</a></span><br>
+			</aside>
+			<aside class="sidebar">
+						<span><a href="" onclick="popup()">Frédéric T. PACERE</a></span><br>
+						<span><img src="Images/livres/lang.png" alt="lang"><br>
+						<a href="" onclick="popup()">Le langage des tam-tams et des masques </a></span><br>
+			</aside>
+		   
+		  </div>
+		 </div>
+		</marquee>
+	</div>
+	<!-- Fin du corps-->
+	<!-- Bouton top-->
+			<div class="scrollup">
+                <a href="#"><img src="Images/top.png" alt="bouton_top"/></a>
+            </div>
+	<!-- Début section footer-->	
+	<footer>
+	 <p>Suivez nous sur les réseaux sociaux</p>
+	 <p>    
+	 <!--lieu et place des liens vers les réseaux sociaux-->
+		<span class="social-network social-circle">
+			<a href="#" title="Likez notre page Facebook" class="icoFacebook" ><img src="Images/divers/fb.png" alt="fb"></a>
+			<a href="#" title="Suivez nous sur Twitter" class="icoTwitter" ><img src="Images/divers/tw.png" alt="tw"></a>
+		</span>
+	 </p>
+        <div class="copyright">
+		 <p><a href="#" onclick="popup()"><img src="Images/faso.png" alt="Faso-Littéra"></a><br>
+		 <a href="html/mentions.html">Mentions légales</a> ||
+		 <a href="html/cgu.html">Conditions générales d'utilisation</a><br>
+		 <SCRIPT >
+                curdate=new Date();
+                document.write(" &copy " +  curdate.getFullYear()+"  ");
+          </SCRIPT>
+           Tous droits réservés</p>   
+        </div>
+    </footer>
+	<!-- Fin section footer-->
+	</body>
+										<!--
+							 Site Web dévéloppé par Amédée DERA
+                                          -->
+</html>
