@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /pdf/
+Disallow: /css/
+Disallow: /js/
+
+User-agent: Googlebot
+Disallow: /Images/
+
+
