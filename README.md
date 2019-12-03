@@ -1,8 +1,8 @@
 # Faso-Littera
-![shields](https://img.shields.io/badge/-Faso-Littera-lightgrey) est une plate-forme web dédiée à la littérature Burkinabè. C'est un projet libre et ouvert à toute contribution, suggestion et/ou apport. <br>
+Faso-Littera est une plate-forme web dédiée à la littérature Burkinabè. C'est un projet libre et ouvert à toute contribution, suggestion et/ou apport. <br>
 
 <br>
-![GitHub All Releases](https://img.shields.io/github/downloads/a-dera/Name-Generator/total?color=Blue&label=downloads)
+![GitHub All Releases](https://img.shields.io/github/downloads/a-dera/Faso-Littera/total?color=Blue&label=downloads)
 <br>
 
 
