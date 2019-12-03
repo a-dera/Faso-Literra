@@ -1,7 +1,4 @@
-# Faso-Literra
-Faso-Littéra est une plate-forme web dédiée au domaine de la littérature au Burkina Faso.
-C'est un projet libre et ouvert à toute contribution, suggestion et/ou apport.
-=======
+
 # Faso-Littera
 Faso-Littera est une plate-forme web dédiée à la littérature Burkinabè. C'est un projet libre et ouvert à toute contribution, suggestion et/ou apport. <br>
 
