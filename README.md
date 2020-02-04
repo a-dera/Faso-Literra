@@ -9,7 +9,7 @@ Faso-Littera est une plate-forme web dédiée à la littérature Burkinabè. C'e
 
 ## Outils de développement
 * [HTML5](https://python.org/)
-* [VueJs](https://www.djangoproject.com/) - A high-level Python Web framework
+* [VueJs]
 * [CSS3](https://getbootstrap.com/) - Framework CSS (front-end)
 * [Javascript](https://getbootstrap.com/) - Framework CSS (front-end)
 
@@ -17,7 +17,7 @@ Faso-Littera est une plate-forme web dédiée à la littérature Burkinabè. C'e
 
 ## Contribution
 
-Le projet est ouvert et libre. Cependant, asssurez-vous d'avoir bien lu le fichier [CONTRIBUTING.md](CONTRIBUTING.md) avant toute contribution.
+Le projet est ouvert et libre. 
 
 ## Versions
 **Dernière version stable :** (Bientôt..)
