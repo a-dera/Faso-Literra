@@ -2,14 +2,11 @@
 # Faso-Littera
 Faso-Littera est une plate-forme web dédiée à la littérature Burkinabè. C'est un projet libre et ouvert à toute contribution, suggestion et/ou apport. <br>
 
-<br>
-![GitHub All Releases](https://img.shields.io/github/downloads/a-dera/Faso-Litera/total?color=Blue&label=downloads)
-<br>
 
 
 ## Outils de développement
 * [HTML5](https://python.org/)
-* [VueJs]
+* [VueJs](https://vuejs.org/)
 * [CSS3](https://getbootstrap.com/) - Framework CSS (front-end)
 * [Javascript](https://getbootstrap.com/) - Framework CSS (front-end)
 
